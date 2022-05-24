@@ -1,0 +1,10 @@
+.body-container{
+    display: flex;
+    app-sidebar{
+        width: 35rem;
+    }
+    app-main-content{
+        width: calc(100% - 35rem);
+    }
+  
+}

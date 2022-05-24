@@ -1,0 +1,21 @@
+.f-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    .f-item{
+        padding: 1rem;
+        border-radius: 10px;
+        background-color: #26262d;
+        *{
+            margin: .5rem;
+        }
+    }
+    h3{
+        display: inline-flex;
+    }
+    p{
+        border: 1px solid #666;
+        display: inline-flex;
+        padding: 0.2rem;
+    }
+}

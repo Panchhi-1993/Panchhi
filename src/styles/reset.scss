@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    position: relative;
+}
+input:focus,input:active,input:hover{
+    outline: none;
+    border: 0;
+}
+body{
+    color: rgba(255,255,255,.55);
+    background: #26262d;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color:rgba(255,255,255,.55);
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
