@@ -7,21 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainContentComponent implements OnInit {
   childData = [{
-    name: `HSC`, year: '2008-2009', schoolName: 'SYN Vidyapith', data: `Completed HSC from SYN Vidyapith UP Board with an aggregate of 77%`
+    name: `HSC`, year: '2003-2004', schoolName: 'K V Manauri', data: `Completed HSC from K V Manauri CBSE Board`
   },
   {
-    name: `SSC`, year: '2010-2011', schoolName: 'SYN Vidyapith', data: `Completed SSC from SYN Vidyapith UP Board with an aggregate of 67.4%`
+    name: `SSC`, year: '2005-2006', schoolName: 'K V Manauri', data: `Completed SSC from K V Manauri CBSE Board`
   }, {
-    name: `Bachloer of Arts`, year: '2015-2017', schoolName: 'DDU Gorakhpur University', data: `Completed Bachloer of Arts from DDU Gorakhpur Universit with an aggregate of 53.11%`
+    name: `Bachloer of Arts(English)`, year: '2007-2010', schoolName: 'Gandhi Mahavidayala', data: `Completed Bachloer of Arts from V.B.S PURVANCHEL
+    UNIVERSITY`
   }, {
-    name: `Master Of Arts`, year: '2020-2021', schoolName: 'DDU Gorakhpur University ', data: `Completed MA with Polatical Science from DDU Gorakhpur University with an aggregate of 61%`
+    name: `Master Of Arts(English)`, year: '2014-2015', schoolName: 'P.G.R.R. College', data: `Completed MA with English fro Osmania University`
   },
   {
-    name: `D.El.Ed`, year: '2017-2019', schoolName: 'SMA Memorial College', data: `Completed D.El.Ed from SMA Memorial College with 89.09 aggregate`
+    name: `B.Ed`, year: '2010-2011', schoolName: 'Presidency college of Education', data: `Completed B.Ed from Osmania University`
   },
-  {
-    name: `CTET`, year: '2021', schoolName: '', data: `Qualified both Primary and Elementry from CTET`
-  },
+ 
   ]
   data = [
     {
@@ -37,7 +36,11 @@ export class MainContentComponent implements OnInit {
       name: "Professional Skills", id: 'professional',
       data: [{
         name: `Professional Qualifications`, list:
-          ["A passion about the teaching field with a great teaching aptitude",
+          ["8 years of experience in teaching profession as TGT English.",
+            "Exceptional communicative and interpersonal skills with well developed personal interaction skills.",
+            "Good in organizing and delivering classroom lectures.",
+            "Excellent classroom management.",
+            "A passion about the teaching field with a great teaching aptitude",
             "Excellent ability to reach to the target students knowledge grasping level and implement appropriate teaching methods and techniques",
             "Thorough knowledge of the subject to be taught and its background.",
             "Great fluency in spoken English and command over comprehension",
@@ -51,16 +54,21 @@ export class MainContentComponent implements OnInit {
     },
     {
       name: "Career Progression", id: 'career',
-      data: [{
-        name: `D.El.Ed`, data: `After Completing my MA I started preparing for D.El.Ed to start my carrier as a teacher. It took sometime but I completed my D.El.Ed with 89%`
+      data: [
+      {
+        name: `D.S. Memorial Inter College (Ballia)
+        `, data:
+          "From May 2011 to May 2017"
       },
       {
-        name: `Elementry School`, data:
-          "After Completing my D.El.Ed I tought in an elementry school near my house for sometime meanwhile preparing for Ctet to clear Government Exams based on it"
+        name: " St. Paul Inter College Shahjahanpur", data:
+        " From June 2019 to May 2020"
+
       },
       {
-        name: "Ctet and Beyond", data:
-          "After Completing my Ctet my complete focus was on to clear government Exam but because of certain circumstances I was not able to persue my ambition. Now again I have been looking into teaching jobs "
+        name: " K.V NO.1 CANTT SHAHJHAPUR", data:
+        "From April 2021 till now"
+
       }
       ]
     },
@@ -70,16 +78,17 @@ export class MainContentComponent implements OnInit {
     },
     {
       name: "Contact Me", id: 'contact', data: [{
-        name: `Email`, data: `ps30may@gmail.com`
+        name: `Email`, data: `Pujadivedi24@gmail.com`
       },
       {
-        name: `Phone Number`, data: "7355135997"
+        name: `Phone Number`, data: "9919972270"
       },
       {
-        name: `Freelance Writing`, data: `Available`
+        name: `Alternate Phone Number`, data: "7398966540"
       },
+      
       {
-        name: `Address`, data: "Hyderabad, India"
+        name: `Address`, data: "Shahjahanpur, U.P., India"
       }
       ]
     },

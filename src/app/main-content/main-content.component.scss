@@ -30,5 +30,10 @@
         list-style-type: disclosure-closed;
         padding-left: 3rem;
     }
-    
+    p.year{
+        border: 1px solid #666;
+        display: flex;
+        padding: 0.2rem;
+max-width: 21rem;
+    }
 }
